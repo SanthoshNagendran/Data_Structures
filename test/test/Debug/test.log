@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  test.cpp
+c:\users\santhosh nagendran\desktop\data structures\test\test\test.cpp(101): warning C4018: '<': signed/unsigned mismatch
+  test.vcxproj -> C:\Users\Santhosh Nagendran\Desktop\Data Structures\test\Debug\test.exe

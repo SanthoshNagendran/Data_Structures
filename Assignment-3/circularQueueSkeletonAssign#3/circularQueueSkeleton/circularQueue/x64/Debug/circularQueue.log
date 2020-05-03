@@ -1,0 +1,12 @@
+﻿  circularQueue.cpp
+c:\users\santhosh nagendran\desktop\data structures\assignment-3\circularqueueskeletonassign#3\circularqueueskeleton\circularqueue\circularqueue.cpp(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\santhosh nagendran\desktop\data structures\assignment-3\circularqueueskeletonassign#3\circularqueueskeleton\circularqueue\circularqueue.cpp(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\santhosh nagendran\desktop\data structures\assignment-3\circularqueueskeletonassign#3\circularqueueskeleton\circularqueue\circularqueue.cpp(100): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\santhosh nagendran\desktop\data structures\assignment-3\circularqueueskeletonassign#3\circularqueueskeleton\circularqueue\circularqueue.cpp(106): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\santhosh nagendran\desktop\data structures\assignment-3\circularqueueskeletonassign#3\circularqueueskeleton\circularqueue\circularqueue.cpp(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  circularQueue.vcxproj -> C:\Users\Santhosh Nagendran\Desktop\Data Structures\Assignment-3\circularQueueSkeletonAssign#3\circularQueueSkeleton\x64\Debug\circularQueue.exe

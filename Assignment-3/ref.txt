@@ -1,0 +1,9 @@
+http://www.ccodechamp.com/c-program-of-circular-queue-using-linked-list/
+
+https://stackoverflow.com/questions/39047190/creating-a-queue-with-structs-in-c
+
+https://www.geeksforgeeks.org/queue-set-2-linked-list-implementation/
+
+https://www.codesdope.com/blog/article/making-a-queue-using-linked-list-in-c/
+
+http://btechsmartclass.com/data_structures/queue-using-linked-list.html

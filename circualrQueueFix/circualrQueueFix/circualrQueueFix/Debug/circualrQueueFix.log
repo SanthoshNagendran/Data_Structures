@@ -1,0 +1,3 @@
+﻿  circualrQueueFix.cpp
+c:\users\santhosh nagendran\desktop\data structures\circualrqueuefix\circualrqueuefix\circualrqueuefix\circualrqueuefix.cpp(214): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+  circualrQueueFix.vcxproj -> C:\Users\Santhosh Nagendran\Desktop\Data Structures\circualrQueueFix\circualrQueueFix\Debug\circualrQueueFix.exe

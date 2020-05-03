@@ -1,0 +1,19 @@
+http://programmingearth.com/post.php?pageid=72&title=C%20program%20to%20create%20a%20binary%20tree.
+
+https://www.sanfoundry.com/c-program-binary-tree-linked-list/
+
+https://www.thegeekstuff.com/2013/02/c-binary-tree -----for creating binary tree
+
+http://www.c4learn.com/c-programs/c-program-for-sorting-the-list-of-strings.html -------- for string compare
+
+https://stackoverflow.com/questions/15935352/inserting-a-string-into-a-binary-search-tree-c
+
+https://www.geeksforgeeks.org/insert-a-node-in-binary-search-tree-iteratively/
+
+https://gist.github.com/aaronjwood/2780f31768691b1d69ed
+
+https://stackoverflow.com/questions/15935352/inserting-a-string-into-a-binary-search-tree-c
+
+https://cboard.cprogramming.com/c-programming/42896-inserting-words-into-binary-search-tree.html
+
+https://stackoverflow.com/questions/41670331/binary-search-tree-of-strings-implementation-in-c

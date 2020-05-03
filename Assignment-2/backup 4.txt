@@ -1,0 +1,125 @@
+// ConsoleApplication2.cpp : Defines the entry point for the console application.
+//
+
+// PROG8130 assignment #2 skeleton
+#include "pch.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+// structure defining a binary tree node.  Lower sorted values will go the the left, higher to the right.
+struct nodeData {
+	char		*name;				// character string of the data being stored in the node
+	struct nodeData *left;		// pointer to the next node in the tree that is less than current node OR NULL if empty
+	struct nodeData *right;		// pointer to the next node in the tree that is greater than current node OR NULL if empty
+};
+typedef struct nodeData node;
+
+// Used the following data in your assignment #2
+const char *inputData[12] = {
+		{ "gvdag" },
+		{ "xbtot" },
+		{ "romfo" },
+		{ "nvqrx" },
+		{ "ofncq" },
+		{ "vfhdi" },
+		{ "mvjir" },
+		{ "uhqbh" },
+		{ "vbpof" },
+		{ "hsaaj" },
+		{ "hhobi" },
+		{ "nxvuo" }
+};
+
+// The correct sorted order using a binary tree is:
+//      gvdag
+//      hhobi
+//      hsaaj
+//      mvjir
+//      nvqrx
+//      nxvuo
+//      ofncq
+//      romfo
+//      uhqbh
+//      vbpof
+//      vfhdi
+//      xbtot
+
+// FUNCTION      : addToBinaryTree
+//
+// DESCRIPTION   :
+//   This function will store the data in newNode into a binary tree according to alphabetical order
+//
+// PARAMETERS    :
+//   newString - the string that is to be stored in the binary tree in alphabetica order
+//
+// RETURNS       :
+//   Nothing
+node *addToBinaryTree(char *newString, node *tree) {
+	// add code to put items into binary tree in alphabetical order here
+	// consider using strcmp library function to decide if a name is greater or less than
+	int result;
+	if (tree == NULL)
+	{
+		tree = (node*)malloc(sizeof(node));
+		tree->name = (char *)malloc(30);
+		tree->left = NULL;
+		tree->right = NULL;
+		strcpy_s(tree->name, 30, newString );
+	}
+	else
+	{
+		result = strcmp(tree->name, newString);
+		if (result < 0)
+		{
+			tree->right = addToBinaryTree(newString, tree->right);
+		}
+		else if (result > 0)
+		{
+			tree->left = addToBinaryTree(newString, tree->left);
+		}
+	}
+	return tree;
+}
+
+// FUNCTION      : printBinaryTree
+//
+// DESCRIPTION   :
+//   This function will print the entire binary tree out.  You can choose to print
+//   it using recursion but more marks will be awarded if you do it non recursively.
+//
+// PARAMETERS    :
+//   None
+//
+// RETURNS       :
+//   Nothing
+void printBinaryTree(node *tree) {
+	// add code to print data in order starting at the "head" pointer
+	if (tree == NULL)
+	{
+		return;
+	}
+	else
+	{
+		printBinaryTree(tree->left);
+		printf("strings inside the tree are %s\n", tree->name);
+		printBinaryTree(tree->right);
+	}
+}
+
+//struct nodeData *head = NULL;	// head of the binary tree
+void main(void) {
+	node *head = NULL;
+	int i;
+	// put all the data into the binary tree
+	for (i = 0; i < 12; i++)
+	{
+		printf("%s\n", inputData[i]);
+	}
+	for (i = 0; i < 12; i++)
+	{
+		head = addToBinaryTree((char *)inputData[i], head);
+	}
+	printBinaryTree(head);
+}

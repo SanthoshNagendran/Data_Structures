@@ -1,0 +1,6 @@
+﻿  keyboard record mode.cpp
+c:\users\santhosh nagendran\desktop\data structures\keyboard record mode\keyboard record mode\keyboard record mode.cpp(18): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\santhosh nagendran\desktop\data structures\keyboard record mode\keyboard record mode\keyboard record mode.cpp(18): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\santhosh nagendran\desktop\data structures\keyboard record mode\keyboard record mode\keyboard record mode.cpp(18): note: the missing variadic argument 2 is required by format string '%c'
+  c:\users\santhosh nagendran\desktop\data structures\keyboard record mode\keyboard record mode\keyboard record mode.cpp(18): note: this argument is used as a buffer size
+  keyboard record mode.vcxproj -> C:\Users\Santhosh Nagendran\Desktop\Data Structures\keyboard record mode\Debug\keyboard record mode.exe
